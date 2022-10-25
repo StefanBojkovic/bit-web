@@ -1,0 +1,41 @@
+@font-face {
+    font-family: FuzzyBubbles-Regular;
+    src: url('FuzzyBubbles-Regular.ttf');
+}
+
+.p1 {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+}
+
+.p3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.q1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.q2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.q3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 30px;
+font-weight: 200;
+}
+
