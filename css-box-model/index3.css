@@ -1,0 +1,47 @@
+p {
+    background-color: yellow;
+    border-width: 5px thick;
+    padding: 0px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.p1,
+.p3 {
+    border-style: dashed;
+    border-color: red;
+}
+
+.p1 {
+    width: 300px;
+}
+
+.p2 {
+    border-style: solid;
+    border-color: green;
+    width: 400px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.p3 {
+    width: 200px;
+    visibility: hidden;
+}
+
+.title {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: aqua;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-box-shadow: 29px 33px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 29px 33px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 29px 33px 16px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}

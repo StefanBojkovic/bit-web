@@ -1,0 +1,30 @@
+p {
+    background-color: yellow;
+    border-width: 5px thick;
+}
+
+.p1, .p3 {
+    border-style: dashed;
+    border-color: red;
+    padding: 50px;
+}
+
+.p1 {
+ width: 300px;
+ margin: 50px;
+}
+
+.p2 {
+    border-style: solid;
+    border-color: green;
+    padding-top: 50px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.p3 {
+width: 200px;
+margin-left: 100px;
+}
+
