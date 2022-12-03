@@ -1,0 +1,25 @@
+.pic-1 {
+    position:relative;
+    top:50px;
+    left:100px;
+    margin-bottom: 50px;
+}
+
+.pic-2 {
+    position:absolute;
+    right:10px;
+    top:15px;
+}
+
+.pic-3 {
+    position: absolute;
+    bottom: 0px;
+}
+
+.top-link {
+    position: fixed;
+    bottom:0px;
+    right:0px;
+}
+
+

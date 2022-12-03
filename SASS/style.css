@@ -1,0 +1,10 @@
+body ul {
+  background-color: gray;
+}
+body li {
+  background-color: orange;
+  font-family: arial, sans-serif;
+}
+body a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+$font : arial,
+sans-serif;
+$primary-color : orange;
+
+
+body {
+    ul {
+        background-color: gray;
+    }
+
+    li {
+        background-color: $primary-color;
+        font-family: $font;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

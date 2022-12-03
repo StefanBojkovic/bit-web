@@ -1,0 +1,64 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+}
+
+.primary {
+    width: 70%;
+    background-color: burlywood;
+    height: 100%;
+}
+
+.secondary {
+    width: 30%;
+    flex-direction: column;
+}
+
+.first {
+    background-color: yellowgreen;
+    height: 33.33%;
+}
+
+.second {
+    background-color: orange;
+    height: 33.33%;
+}
+
+.third {
+    background-color: gray;
+    height: 33.33%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.prvi {
+    background-color: yellowgreen;
+}
+
+.drugi {
+    background-color: orangered;
+}
+
+.treci {
+    background-color: gray;
+}
+
+.cetvrti {
+    background-color: purple;
+}
+
+.peti {
+    background-color: blue;
+}
+
+.sesti {
+    background-color: plum;
+}
