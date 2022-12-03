@@ -1,0 +1,35 @@
+body {
+    width: 96%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 2% 0% 2%;
+}
+
+.div-1 {
+    display: inline-block;
+}
+
+.section-1 {
+    width: 40%;
+    float: left;
+    margin-right: 2%;
+}
+
+.vl {
+    border-left: 0.125rem solid;
+    height: 32rem;
+    float: left;
+    margin-top: 1%;
+}
+
+.section-2 {
+    float: left;
+    width: 50%;
+    margin-left: 2%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}

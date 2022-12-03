@@ -1,0 +1,71 @@
+.first,
+.first-2,
+.first-3,
+.second,
+.second-2,
+.second-3,
+.third,
+.third-2,
+.third-3 {
+    width: 200px;
+    height: 200px;
+}
+
+.first {
+    background-color: red;
+}
+
+.second {
+    background-color: yellow;
+}
+
+.third {
+    background-color: blue;
+}
+
+.first-2 {
+    background-color: red;
+}
+
+.second-2 {
+    background-color: yellow;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+.third-2 {
+    background-color: blue;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+
+.relative-div {
+    position:relative;
+}
+
+.first-3 {
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    z-index: 3;
+}
+
+.second-3 {
+    background-color: yellow;
+    position: absolute;
+    right: 100px;
+    top:100px;
+    z-index: 2;
+}
+
+.third-3 {
+    background-color: blue;
+    position: absolute;
+    right: 0px;
+    top:200px;
+    right:200px;
+    z-index: 1;
+}
+
