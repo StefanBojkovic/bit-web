@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  font-weight: bold !important;
+}
+a:active {
+  background-color: yellow;
+}
+a:visited {
+  background-color: orange;
+}
+a:link {
+  background-color: green;
+}
+
+.p-1 {
+  font-size: 16px;
+  background-color: tomato;
+}
+
+.p-2 {
+  font-size: 18px;
+  background-color: green;
+}
+
+.p-3 {
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.p-4 {
+  font-size: 22px;
+  background-color: blueviolet;
+}/*# sourceMappingURL=style.css.map */

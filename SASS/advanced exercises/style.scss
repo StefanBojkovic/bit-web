@@ -1,0 +1,50 @@
+a {
+    &:active {
+        background-color: yellow;
+    }
+
+    &:visited {
+        background-color: orange;
+    }
+
+    &:link {
+        background-color: green;
+    }
+
+    text-decoration: none;
+    font-weight: bold !important;
+}
+
+$minFontSize: 16px;
+
+@function calculateFontSize($i, $n) {
+    @return $minFontSize +$n * ($i - 1);
+}
+
+@mixin backgroundColor ($i){
+    @if $i == 1 {
+        background-color: tomato;
+    }
+    @else if $i == 2 {
+        background-color: green;
+    }
+    @else if $i == 3 {
+        background-color: yellow;
+    }
+    @else if $i == 4 {
+        background-color: blueviolet;
+    }
+}
+
+@for $i from 1 to 5 {
+    .p-#{$i} {
+        font-size: calculateFontSize($i, 2);
+        @include backgroundColor($i);
+    }
+}
+
+@function widthTranslator(){
+    
+}
+
+
